@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blacky"
+    android:layout_width="match_parent"
+    android:layout_height="390sp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerInParent="true"
+        android:id="@+id/ordermenow"
+        android:layout_marginTop="30sp"
+        app:cardCornerRadius="40sp"
+        android:backgroundTint="@color/blacky"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="360sp"
+        android:layout_height="330sp">
+
+        <TextView
+            android:textSize="26sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="36sp"
+            android:text="ID :"
+            android:textColor="@color/yellowssss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="26sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="187sp"
+            android:text="TABLE #:"
+            android:textColor="@color/yellowssss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="26sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="237sp"
+            android:text="BOOK ID:"
+            android:textColor="@color/yellowssss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:background="#f5f3f5"
+            android:layout_width="30sp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/idnimu"
+                android:layout_marginLeft="90sp"
+                android:text="USER ID"
+                android:textColor="#f5f3f5"
+                android:textSize="22sp"
+                android:layout_marginTop="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_marginLeft="40sp"
+                android:text="ERCHIL B AMAD"
+                android:textColor="#f5f3f5"
+                android:textSize="22sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/chicken"
+                android:layout_marginLeft="40sp"
+                android:text="2019/12/12 : 00:00:00"
+                android:textColor="#f5f3f5"
+                android:textSize="22sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tabiddaw"
+                android:layout_marginLeft="160sp"
+                android:text="TABLE ID"
+                android:textColor="#f5f3f5"
+                android:textSize="22sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/bokod"
+                android:layout_marginLeft="160sp"
+                android:text="BOOK ID"
+                android:textColor="#f5f3f5"
+                android:textSize="22sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/statuss"
+                android:text="Status"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blacky"
+                android:textSize="22sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:paddingLeft="70sp"
+                android:paddingRight="70sp"
+                android:background="#99ddcc"
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

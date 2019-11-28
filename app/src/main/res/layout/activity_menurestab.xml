@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blacky"
+    tools:context=".menulist">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/userid"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:hint="User ID"
+        android:layout_alignParentRight="true"
+        android:textColorHint="@color/yellowssss"
+        android:textColor="@color/yellowssss"
+        android:layout_marginRight="80sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tableid"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:hint="Table ID"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80sp"
+        android:textColorHint="@color/yellowssss"
+        android:textColor="@color/yellowssss"
+        android:layout_marginRight="80sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/receiptall"
+        android:textSize="42sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/clip"
+        android:layout_width="70sp"
+        android:layout_height="70sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/searchme"
+            android:textSize="21sp"
+            android:hint="Search Meal"
+            android:textAlignment="center"
+            android:layout_marginTop="70sp"
+            android:background="@drawable/eoundbutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="360sp"
+            android:layout_height="50sp"/>
+
+        <Spinner
+            android:textAlignment="center"
+            android:paddingLeft="30sp"
+            android:id="@+id/spinmydick"
+            android:layout_marginTop="5sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/eoundbutton"
+            android:layout_width="240sp"
+            android:layout_height="40sp"/>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listmenu"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

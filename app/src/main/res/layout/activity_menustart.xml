@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blacky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menustart">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:background="@drawable/me"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="180sp"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/images"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/guest"
+                android:layout_width="200sp"
+                android:layout_height="200sp"/>
+
+            <TextView
+                android:textColor="@color/yellowssss"
+                android:textColorHint="@color/yellowssss"
+                android:id="@+id/fullname"
+                android:layout_marginTop="190sp"
+                android:hint="Example name"
+                android:textSize="26sp"
+                android:layout_marginRight="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/yellowssss"
+                android:id="@+id/email"
+                android:textColorHint="@color/yellowssss"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="250sp"
+                android:hint="Anvic@mail.com"
+                android:textSize="26sp"
+                android:layout_marginLeft="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_marginTop="320sp"-->
+<!--                android:layout_marginLeft="40sp"-->
+<!--                android:background="@drawable/menu"-->
+<!--                android:layout_width="70sp"-->
+<!--                android:layout_height="70sp"/>-->
+
+            <Button
+                android:id="@+id/menu"
+                android:textColor="@color/blacky"
+                android:textSize="28sp"
+                android:text="Menu Tab"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:background="@drawable/eoundbutton"
+                android:layout_marginTop="335sp"
+                android:layout_marginLeft="110sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/reser"
+                android:textColor="@color/blacky"
+                android:textSize="28sp"
+                android:text="RESERVATION"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:background="@drawable/eoundbutton"
+                android:layout_marginTop="425sp"
+                android:layout_marginLeft="110sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/reservation"
+                android:textColor="@color/blacky"
+                android:textSize="28sp"
+                android:text="MY LIST"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:layout_marginBottom="50sp"
+                android:background="@drawable/eoundbutton"
+                android:layout_marginTop="525sp"
+                android:layout_marginLeft="110sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/chefu"
+                android:textColor="@color/blacky"
+                android:textSize="28sp"
+                android:text="Order List"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:layout_marginBottom="50sp"
+                android:background="@drawable/eoundbutton"
+                android:layout_marginTop="590sp"
+                android:layout_marginLeft="110sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/waiter"
+                android:textColor="@color/blacky"
+                android:textSize="28sp"
+                android:text="Order List"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:layout_marginBottom="50sp"
+                android:background="@drawable/eoundbutton"
+                android:layout_marginTop="590sp"
+                android:layout_marginLeft="110sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chef"
+                android:layout_width="200sp"
+                android:layout_marginTop="340sp"
+                android:src="@drawable/cocinero"
+                android:layout_centerHorizontal="true"
+                android:layout_height="200sp"/>
+
+
+
+            <Button
+                android:id="@+id/logout"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@color/blacky"
+                android:text="X"
+                android:layout_marginBottom="100sp"
+                android:layout_marginTop="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20sp"
+                android:gravity="center"
+                android:background="@color/yellowssss"
+                android:layout_width="50sp"
+                android:layout_height="50sp"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

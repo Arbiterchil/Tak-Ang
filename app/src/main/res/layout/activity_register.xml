@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blacky"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/fullname"
+            android:textColorHint="@color/blacky"
+            android:hint="Full name"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:textColorHint="@color/blacky"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:textColorHint="@color/blacky"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:textColorHint="@color/blacky"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/conpassword"
+            android:textColorHint="@color/blacky"
+            android:hint="Confirm Password"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:inputType="textPassword"
+            android:layout_height="50sp"/>
+
+        <Spinner
+            android:textAlignment="center"
+            android:id="@+id/genders"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:textColorHint="@color/blacky"
+            android:hint="Address"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+        <Spinner
+            android:textAlignment="center"
+            android:id="@+id/customer"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280sp"
+            android:layout_height="50sp"/>
+
+
+        <TextView
+            android:id="@+id/confirma"
+            android:text="1 or 0"
+            android:visibility="invisible"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginBottom="30sp"
+            android:id="@+id/register"
+            android:text="Register"
+            android:textColorHint="@color/blacky"
+            android:textAlignment="center"
+            android:background="@drawable/eoundbutton"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180sp"
+            android:layout_height="50sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

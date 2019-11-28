@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tak_ang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".waiterside"></activity>
+        <activity android:name=".menurestab" />
+        <activity android:name=".purposetwo" />
+        <activity android:name=".aorde" />
+        <activity android:name=".chefu" />
+        <activity android:name=".myreser" />
+        <activity android:name=".Bok" />
+        <activity android:name=".tableres" />
+        <activity
+            android:name=".results"
+            android:theme="@style/AppTheme.Custom" />
+        <activity
+            android:name=".register"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".reserlist" />
+        <activity
+            android:name=".menulist"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".menustart" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
